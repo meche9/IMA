@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -20,31 +20,45 @@ body{
 
 .container{
     width: 60rem;
-    height: 40vh;
+    height: 15rem;
     background-color:lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 0.5rem black;
+    border: solid 0.5rem black;  
+}
 
-
+.login{
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    margin-left: 0.6rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+     
+    
 }
 
 .links{
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    height: 15%;
+    width: 100%;
 
     
 }
 .links a{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: space-between; */
     color: black;
     font-size: 15px;
     text-decoration: none;
+
+    padding: .5rem;
+
 }
 
 .links a:hover {
@@ -52,17 +66,24 @@ body{
     border-radius: 0.5rem ;
 }
 
+.title-login{
+    width: 100%;
+    height: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
 
-
-.login{
-    width: 35%;
-    height: 300px;
-    background-color: white;
-    margin-left: 0.6rem;
-    /*border-radius: 1rem;*/
-    padding: 1rem 1rem;
-    
+    padding-bottom: 0.5 rem;
+    border-width: 0 0  .1rem 0;
+    border-style: solid;
+    border-color: gray;
 }
+
+.form-login{
+    width: 100%;
+    height: 70%;
+}
+
 .material-symbols-outlined{
     background-color: lightgrey;
     position: absolute;
@@ -71,13 +92,39 @@ body{
     
 }
 
+.input-login{
+    width: 100%;
+    height: 15%;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.input{
+    width: 95%;
+    padding: 0.3rem 0 .3rem 1.8rem;
+
+}
+
+.button{
+    margin-top: 0.8rem;
+    padding: 0.2rem .5rem;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    opacity: 80%;
+
+}
+
+
+/* ********************** SLIDER ******************* */
 .slider{
     width: 65%;
-    height: 300px;
+    height: 90%;
     display: flex;
     background-color: cornflowerblue;
     position: relative;
     margin-right: 1.2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
 
 }
 .slider img{
@@ -85,17 +132,23 @@ body{
     height: 100%;
     position: absolute;
     top: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+    opacity: 60%;
 }
 
 .informacion{
     width: 30%;
-    height: 300px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color:rgb(8, 248, 8);
-    opacity: 50%;
+    opacity: 60%;
     z-index: 10;
     color: white;
+    overflow: hidden;
+    padding: .5rem;
+    text-align: center;
+    border-radius:50% 20%  10% 40%;
     
 }
 .informacion h2{
@@ -103,24 +156,8 @@ body{
     opacity: 100%;
     
 }
-
-.title-login{
-    font-size: 35px;
-    font-weight: bold;
- 
-}
-
-.input-login{
-    width: 100%;
-    height: 3rem;
-    margin-top: 0.5rem;
-    
-}
-
-.input{
-    width: 95%;
-    padding: 0.5rem 0.5rem;
-
+.informacion span{
+    font-size: .7rem;
 }
 
 .inicio{
@@ -128,12 +165,3 @@ body{
 
 }
 
-.button{
-    margin-top: 0.3rem;
-    padding: 0.5rem;
-    background-color: lightgray;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    opacity: 80%;
-
-}
