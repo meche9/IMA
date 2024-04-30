@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(216, 229, 247) ;
+    background-color:white ;
 }
 
 .container{
@@ -29,7 +29,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: lawngreen;
+    background-color: #87a919;
     text-align: center;
     justify-content: center;
    
@@ -67,7 +67,7 @@ body{
 .botonera{
     width: 80%;
     height: 20%;
-    background-color: lawngreen;
+    background-color: #557117;
     border-radius: 0.5rem ;
     opacity: 70%;
     position: relative;
@@ -75,13 +75,11 @@ body{
     left: 55px;
     box-shadow: 1px 1px 10px 1px;
     display: flex;
-    justify-content: center;
-    
- 
+    justify-content: center; 
 }
 
 .botonera input{
-    width: 40%;
+    width: 60%;
     height: 50%;
 
     margin-top: 0.8rem;

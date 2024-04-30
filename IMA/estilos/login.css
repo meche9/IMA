@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -14,18 +15,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(216, 229, 247) ;
+    /*background-color:#87a919 ;*/
+    background: linear-gradient(0.25turn,WHITE, #87a919, #557117,#2c4214);
 
 }
 
 .container{
     width: 60rem;
     height: 15rem;
-    background-color:lightgray;
+    background-color:#557117;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 0.5rem black;  
+    border: solid 0.5rem #2c4214;  
 }
 
 .login{
@@ -62,7 +64,7 @@ body{
 }
 
 .links a:hover {
-    background-color: lightgreen;
+    background-color:  #87a919;
     border-radius: 0.5rem ;
 }
 
@@ -72,6 +74,7 @@ body{
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 0.5rem;
+    
 
     padding-bottom: 0.5 rem;
     border-width: 0 0  .1rem 0;
@@ -150,10 +153,13 @@ body{
     text-align: center;
     border-radius:50% 20%  10% 40%;
     
+    
 }
 .informacion h2{
+    
     color: black;
     opacity: 100%;
+    
     
 }
 .informacion span{
